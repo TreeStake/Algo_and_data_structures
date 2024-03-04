@@ -1,5 +1,5 @@
 import unittest
-from lab_3_3 import biggest_sequence
+from Algo_and_data_structures.src.peak_sequence import biggest_sequence
 
 
 class TestBiggestSequence(unittest.TestCase):
