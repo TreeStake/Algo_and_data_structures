@@ -1,12 +1,6 @@
-import os
-import sys
 import unittest
 
-current_dir = os.path.abspath(os.path.dirname(__file__))
-parent_dir = os.path.abspath(os.path.join(current_dir, ".."))
-sys.path.append(parent_dir)
-
-from src.max_diametr import BinaryTree, binary_tree_diameter
+from Algo_and_data_structures.src.max_diametr import BinaryTree, binary_tree_diameter
 
 
 class TestMaxDiameter(unittest.TestCase):
