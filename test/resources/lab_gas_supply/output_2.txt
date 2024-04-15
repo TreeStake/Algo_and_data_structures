@@ -1,0 +1,3 @@
+['Kovel', []]
+['Lutsk', []]
+['Horohiv', []]
