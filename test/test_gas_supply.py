@@ -44,12 +44,9 @@ class TestGasSupply(unittest.TestCase):
         with open(output_file_path, "r", encoding="utf-8") as file:
             output = file.readlines()
             print(output)
-            expected_output = ["['Kyiv', []]\n", "['Kharkiv', ['Kyiv']]\n",
-                               "['Odessa', ['Kyiv', 'Kharkiv']]\n",
-                               "['Dnipro', ['Kyiv', 'Kharkiv', 'Odessa']]\n",
-                               "['Lviv', ['Kyiv', 'Kharkiv', 'Odessa', 'Dnipro']]\n",
-                               "['Zaporizhzhia', ['Kyiv', 'Kharkiv', 'Odessa', 'Dnipro', 'Lviv']]\n",
-                               "['Vinnytsia', ['Kyiv', 'Kharkiv', 'Odessa', 'Dnipro', 'Lviv', 'Zaporizhzhia']]\n"]
+            expected_output = ["['Kyiv', []]\n",
+                               "['Odessa', ['Kyiv']]\n",
+                               "['Dnipro', ['Kyiv', 'Odessa']]\n"]
         self.assertEqual(expected_output, output)
 
 

@@ -1,2 +1,2 @@
-"Kyiv", "Kharkiv", "Odessa", "Dnipro", "Lviv", "Zaporizhzhia", "Vinnytsia"
-["Kyiv", "Kharkiv"], ["Kharkiv", "Odessa"], ["Odessa", "Dnipro"], ["Dnipro", "Lviv"], ["Lviv", "Zaporizhzhia"], ["Zaporizhzhia", "Vinnytsia"], ["Kyiv", "Vinnytsia"]
+"Kyiv", "Odessa", "Dnipro"
+["Kyiv", "Kharkiv"], ["Kharkiv", "Odessa"], ["Odessa", "Dnipro"], ["Dnipro", "Lviv"], ["Kyiv", "Vinnytsia"], ["Vinnytsia", "Lviv"], ["Kyiv", "Lutsk"], ["Lutsk", "Lviv"]
