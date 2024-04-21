@@ -1,0 +1,3 @@
+['Kyiv', []]
+['Odessa', ['Kyiv']]
+['Dnipro', ['Kyiv', 'Odessa']]

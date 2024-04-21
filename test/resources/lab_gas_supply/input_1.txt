@@ -1,0 +1,2 @@
+"Kovel", "Lutsk", "Horohiv", "Novovolynsk", "Lviv", "Struy", "Hodoriv"
+["Kovel", "Lutsk"], ["Lutsk", "Horohiv"], ["Horohiv", "Lviv"], ["Lviv", "Struy"], ["Struy", "Hodoriv"], ["Lviv", "Hodoriv"], ["Novovolynsk", "Horohiv"]

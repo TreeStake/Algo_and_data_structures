@@ -44,11 +44,11 @@ class BinaryHeap:
         self.priority_queue.pop()
         for i in range(0, (len(self.priority_queue) - 2) // 2):
             self.build_heapify(self.priority_queue, i, len(self.priority_queue))
-        print(top_element)
-        return top_element
+        # print(top_element)
+        return top_element[0]
 
     def show_queue(self):
-        print(self.priority_queue)
+        # print(self.priority_queue)
         return self.priority_queue
 
 

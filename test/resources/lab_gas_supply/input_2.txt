@@ -1,0 +1,2 @@
+"Kovel", "Lutsk", "Horohiv"
+["Kovel", "Lutsk"], ["Lutsk", "Kovel"], ["Kovel", "Horohiv"], ["Horohiv", "Kovel"], ["Horohiv", "Lutsk"], ["Lutsk", "Horohiv"]
