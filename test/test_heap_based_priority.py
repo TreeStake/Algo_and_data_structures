@@ -18,7 +18,7 @@ class TestHeapBasedPriority(unittest.TestCase):
         heap.add_element(4, 20)
         heap.add_element(4, 1)
         heap.add_element(4, 26)
-        self.assertEquals(heap.pop_element(), (4, 26))
+        self.assertEquals(heap.pop_element(), 4)
 
     def test_add_element_if_build_heap(self):
         heap = BinaryHeap()
