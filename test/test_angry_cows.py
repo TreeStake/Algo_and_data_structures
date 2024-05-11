@@ -1,5 +1,5 @@
 import unittest
-from angry_cows import min_distance_between_cows
+from Algo_and_data_structures.src.angry_cows import min_distance_between_cows
 
 
 class TestMinimalPosition(unittest.TestCase):

@@ -21,7 +21,3 @@ def biggest_sequence(sequence):
     print(max_counter)
 
     return max_counter
-
-
-sex = [11, 17, 19, 15, 14, 13, 11, 13, 15, 17, 2, -1]
-biggest_sequence(sex)

@@ -25,7 +25,3 @@ def can_place_cows(sections, num_cows, distance):
         return True
     else:
         return False
-
-
-arr = [1, 2, 8, 4, 9]
-min_distance_between_cows(arr, 3)

@@ -44,23 +44,7 @@ class BinaryHeap:
         self.priority_queue.pop()
         for i in range(0, (len(self.priority_queue) - 2) // 2):
             self.build_heapify(self.priority_queue, i, len(self.priority_queue))
-        # print(top_element)
         return top_element[0]
 
     def show_queue(self):
-        # print(self.priority_queue)
         return self.priority_queue
-
-
-if __name__ == "__main__":
-    heap = BinaryHeap()
-    heap.add_element(5, 5)
-    heap.add_element(9, 16)
-    heap.add_element(10, 8)
-    heap.add_element(4, 14)
-    heap.add_element(4, 20)
-    heap.add_element(4, 1)
-    heap.add_element(4, 26)
-    heap.show_queue()
-    heap.pop_element()
-    heap.show_queue()
