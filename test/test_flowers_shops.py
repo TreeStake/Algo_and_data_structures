@@ -2,6 +2,7 @@ import unittest
 import os
 from Algo_and_data_structures.src.flowers_shops import ford_fulkerson
 
+
 class TestFlowersShop(unittest.TestCase):
     def test_flowers_shops_without_connection(self):
         resources_dir = os.path.join(os.path.dirname(__file__), "resources", "lab_flowers_shops")
@@ -24,3 +25,6 @@ class TestFlowersShop(unittest.TestCase):
 
         self.assertEqual(output, 15)
 
+
+if __name__ == "__main__":
+    unittest.main()
